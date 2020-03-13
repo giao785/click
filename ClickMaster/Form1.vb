@@ -40,33 +40,6 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        If Label11.Visible = False Then
-            Label11.Visible = True
-            a = a + 1
-            If a = 5 Then
-                Label11.Text = "你是在玩弄我吗(ﾟДﾟ*)ﾉ"
-            End If
-            If a = 11 Then
-                Label11.Text = "你够了我忍你很久了(ノ｀Д)ノ"
-            End If
-            If a = 15 Then
-                Label11.Text = "有一说一，你何必在我这浪费时间(* ￣︿￣)"
-            End If
-            If a >= 20 And a < 100 Then
-                Label11.Text = "你已经按了" + a.ToString + "次ψ(._. )（怒）"
-            End If
-            If a = 101 Then
-                Label11.Text = "你还真有耐心，在不要按了(ˉ﹃ˉ)"
-            End If
-            If a = 131 Then
-                Label11.Text = "实实的没彩蛋了（〃｀ 3′〃）"
-            End If
-            If a = 501 Then
-                Label11.Text = "算你厉害，是在下输了(；′⌒`)"
-            End If
-        Else
-            Label11.Visible = False
-            a = a + 1
-        End If
+       
     End Sub
 End Class
